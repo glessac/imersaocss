@@ -1,22 +1,109 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Glessa Cavalieri</title>
-    <link rel="stylesheet" href="css/estilos.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!--site responsivo-->
+  <title>Glessa Cavalieri</title>
+  <link rel="stylesheet" href="css/estilos.css">
+  
+  <link href="https://fonts.googleapis.com/css2?family=Caveat&family=Dancing+Script&family=Jost:wght@300;500&display=swap" rel="stylesheet">
+  <script src="https://kit.fontawesome.com/07e3409251.js" crossorigin="anonymous"></script>
+
 </head>
+
 <body>
-    <header>
-        <nav class="menu">
-          <ul>
-            <li><a href="#">Sobre</a></li>
-            <li><a href="#">Portfólio</a></li>
-            <li><a href="#">Contato</a></li>
-          </ul>
-        </nav>
-        <h1 class="site-title">Glessa Cavalieri</h1>
-        <h2 class="site-subtitle">web developer</h2>
-      </header>
+  <header>
+    <nav class="menu">
+      <ul class="container">
+        <li><a href="#sobre">Sobre</a></li>
+        <li><a href="#portfolio">Portfólio</a></li>
+        <li><a href="#contato">Contato</a></li>
+      </ul>
+    </nav>
+    <div class="titulo">
+    <h1 class="site-title">Glessa Cavalieri</h1>
+    <h2 class="site-subtitle">web developer</h2>
+    </div>
+  </header>
+  <section class="sobre container" id="sobre">
+    <h2>Sobre</h2>
+    <figure class="avatar">
+      <img src="https://scontent.fgru5-1.fna.fbcdn.net/v/t1.0-9/s960x960/43383564_2150009475009396_1219909637076156416_o.jpg?_nc_cat=106&_nc_sid=dd7718&_nc_eui2=AeF-Zpy9AwkV3TIX9puJaaUd6sJS0bxAZx_qwlLRvEBnH_3R22lwPHWKAPV_3LQxKWKyqQkKVD7yhVOlS2Ib4B_X&_nc_oc=AQm3KhbWvm0kwnTRqy_7AFOXw6Z0nvZyO3xiTrZUF9ngO4xA1d0F9LOhB6Vd8ojtAJI&_nc_ht=scontent.fgru5-1.fna&_nc_tp=7&oh=08d542f6885e40f5c789cde839aeaba3&oe=5EEE350F" alt="Glessa Cavalieri">
+    </figure>
+      <p> Lorem ipsum dolor sit, amet consectetur adipisicing elit. Reiciendis nesciunt nemo voluptas, quis maxime quae velit! Dolorem excepturi mollitia neque est, ea voluptatem, voluptate voluptatum tenetur numquam, odio aspernatur consequatur?</p>
+    <p>Repellendus quas hic magni sint vitae dolore necessitatibus dolores dolor recusandae aliquid! Placeat atque, sint molestias modi velit assumenda. Aspernatur dolorum obcaecati omnis earum voluptate, error reiciendis mollitia debitis dolores!</p>
+    <p>Dolorem quisquam atque similique natus molestiae, dolor ex reprehenderit recusandae soluta sequi eius perferendis magni corrupti, quaerat nostrum rerum quia! Reiciendis expedita minima explicabo rerum deleniti esse aliquid saepe animi.</p>
+    <p>Este site foi construído durante a <a href="https://www.alura.com.br/imersao-css">Imersão CSS da Alura</a> 😉 </p>
+
+  </section>
+  <section class="portfolio container" id="portfolio">
+    <h2>Portfólio</h2>
+    <div class="grid">
+
+      <div class="flip-card">
+        <div class="card">
+          <figure class="card-front">
+            <img class="img-portfolio" src="./img/ecommerce-creditos-s-o-c-i-a-l-c-u-t-unsplash.jpg" alt="eCommerce">
+          </figure>
+          <div class="card-back">
+            <h3>eCommerce</h3>
+          </div>
+        </div>
+      </div>
+     
+      <div class="flip-card">
+        <div class="card">
+          <figure class="card-front">
+            <img class="img-portfolio" src="./img/mobile-creditos-nate-grant-unsplash.jpg" alt=">Mobile">
+          </figure>
+          <div class="card-back">
+            <h3>Mobile</h3>
+          </div>
+        </div>
+      </div>
+     
+      <div class="flip-card">
+        <div class="card">
+          <figure class="card-front">
+            <img class="img-portfolio" src="./img/webdesign-creditos-domenico-loia-unsplash.jpg" alt="Web design">
+          </figure>
+          <div class="card-back">
+            <h3>Web design</h3>
+          </div>
+        </div>
+      </div>
+      
+      <div class="flip-card">
+        <div class="card">
+          <figure class="card-front">
+            <img class="img-portfolio" src="./img/projpessoais-creditos-hal-gatewood-unsplash.jpg" alt="Projetos pessoais">
+          </figure>
+          <div class="card-back">
+            <h3>Projetos pessoais</h3>
+          </div>
+        </div>  
+      </div>
+      
+    </div>
+  </section>
+  <section class="contato container" id="contato">
+    <h2>Contato</h2>
+    <div class="grid">
+      <a target="_blank" href="https://github.com/glessac">
+        <i class="fab fa-github"></i>
+      </a>
+      <a target="_blank" href="https://www.linkedin.com/in/glessa-cavalieri-9701a5b0/">
+        <i class="fab fa-linkedin"></i>
+      </a>
+      <a href="mailto:glessac@gmail.com">
+        <i class="fas fa-envelope"></i>
+      </a>
+      <a target="_blank" href="https://www.instagram.com/glessac/">
+        <i class="fab fa-instagram"></i>
+      </a>
+    </div>
+  </section>
 </body>
+
 </html>
